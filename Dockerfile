@@ -28,4 +28,5 @@ COPY cloudrun-start.sh /srv/cloudrun-start.sh
 RUN chmod +x /srv/cloudrun-start.sh
 
 # Avvio di default del container
+EXPOSE 8080
 CMD ["/srv/cloudrun-start.sh"]
